@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font poppin -->
+    <link
+      rel="stylesheet"
+      id="mfn-fonts-css"
+      href="https://fonts.googleapis.com/css?family=Poppins%3A1%2C300%2C400%2C400italic%2C500%2C600%2C700%2C700italic%7CSora%3A1%2C300%2C400%2C400italic%2C500%2C600%2C700%2C700italic&amp;display=swap&amp;ver=6.1.1"
+      type="text/css"
+      media="all"
+    />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- link slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/style2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- sub-nav -->
+    <div class="sub-nav bg-dark">
+      <div class="container d-flex justify-content-between">
+        <div class="text-white mt-2">
+          <p class="line-height">
+            This is an educational <span>HTML CSS</span> template by TemplateMo website.
+          </p>
+        </div>
+        <ul class="nav ul-sub-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="fa-brands fa-behance"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- header -->
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-sm pt-3">
+        <div class="container">
+          <a class="navbar-brand text-white fw-bold fs-1" href="#">EDU MEETING</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav ul-main-nav ">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MEETINGS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">APPLY NOW</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >PAGES</a
+              >
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item text-dark" href="#"
+                    >Upcoming Meetings</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item text-dark" href="#"
+                    >Meeting Details</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">COURSES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT US</a>
+            </li>
+            <!-- <li class="nav-item">
+              <i id="menu-mobile" class="fa-solid fa-bars"></i>
+            </li> -->
+          </ul>
+          <!-- <div class="menu-mobile fs-3 text-white"><i id="menu-mobile" class="fa-solid fa-bars"></i></div> -->
+        </div>
+      </div>
+      </nav>
+    </header>
+    <!-- banner -->
+    <section class="banner">
+      <div class="container-fluid">
+        <!-- <video type="video/mp4" loop="true" autoplay="true">
+        <source src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/course-video.mp4"
+          type="video/mp4">
+      </video> -->
+        <div class="container">
+          <div class="caption">
+            <h6 class="text-white fs-6 mb-3">HELLO STUDENTS</h6>
+            <h2 class="text-white fs-1">WELCOME TO EDUCATION</h2>
+            <p class="text-white pt-2">
+              This is an edu meeting HTML CSS template provided by TemplateMo
+              website. This is a Bootstrap v5.1.3 layout. The video background
+              is taken from Pexels website, a group of young people by
+              Pressmaster.
+            </p>
+            <button type="button" class="btna btn-banner">JOIN US NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services -->
+    <section class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 d-flex">
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="service-box">
+                    <img src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/service-icon-03.png" alt="" />
+                    <h4 class="mt-3 mb-3">Online Meeting</h4>
+                    <p>Suspendisse tempor mauris a sem elementum bibendum.
+                      Praesent facilisis massa non vestibulum. </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="service-box">
+                    <img
+                      src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/service-icon-03.png"
+                      alt=""
+                    />
+                    <h4 class="mt-3 mb-3">Online Meeting</h4>
+                    <p>
+                      Suspendisse tempor mauris a sem elementum bibendum.
+                      Praesent facilisis massa non vestibulum.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="service-box">
+                    <img
+                      src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/service-icon-03.png"
+                      alt=""
+                    />
+                    <h4 class="mt-3 mb-3">Online Meeting</h4>
+                    <p>
+                      Suspendisse tempor mauris a sem elementum bibendum.
+                      Praesent facilisis massa non vestibulum.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="service-box">
+                    <img
+                      src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/service-icon-03.png"
+                      alt=""
+                    />
+                    <h4 class="mt-3 mb-3">Online Meeting</h4>
+                    <p>
+                      Suspendisse tempor mauris a sem elementum bibendum.
+                      Praesent facilisis massa non vestibulum.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="service-box">
+                    <img
+                      src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/service-icon-03.png"
+                      alt=""
+                    />
+                    <h4 class="mt-3 mb-3">Online Meeting</h4>
+                    <p>
+                      Suspendisse tempor mauris a sem elementum bibendum.
+                      Praesent facilisis massa non vestibulum.
+                    </p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="service-box">
+                    <img
+                      src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/service-icon-03.png"
+                      alt=""
+                    />
+                    <h4 class="mt-3 mb-3">Online Meeting</h4>
+                    <p>
+                      Suspendisse tempor mauris a sem elementum bibendum.
+                      Praesent facilisis massa non vestibulum.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end slider -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- upcoming -->
+    <section class="upcoming"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center text-white mb-5 mt-5">
+            <h2 class="fs-2 fw-bold mb-4 pb-3">UPCOMING MEETINGS</h2>
+          </div>
+          <div class="col-lg-4">
+            <div class="category p-5 bg-white">
+              <h4 class="fs-5 pb-3 mb-3">Meeting Category</h4>
+              <ul class="ul-upcoming ps-0 pb-3 mb-4">
+                <li><a href="#">Sed tempus enim leo</a></li>
+                <li><a href="#">Aenean molestie quis</a></li>
+                <li><a href="#">Cras et metus vestibulum</a></li>
+                <li><a href="#">Nam et condimentum</a></li>
+                <li><a href="#">Phasellus nec sapien</a></li>
+              </ul>
+              <span><a href="#"class="btna btn-upcoming">ALL UPCOMING MEETINGS</a></span>
+            </div>
+          </div>
+          <div class="col-lg-8 upcoming-card ">
+            <div class="row ms-4 ">
+            <div class="col-lg-6">
+                  <div class="card upcoming-card_item">
+                    <img src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/meeting-02.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body p-4 d-flex">
+                      <div class="card-time">
+                        <p class="fs-5 fw-bold text-center">10 <span class="fs-6 ">NOV</span></p>
+                      </div>
+                      <div class="">
+                      <h4 class="card-title fs-5 fw-bold"><a href="#">New Lecturers Meeting</a></h4>
+                      <p class="card-text pt-1">
+                        Morbi in libero blandit lectus cursus ullamcorper.
+                      </p></div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="card mb-3 upcoming-card_item">
+                <img src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/meeting-02.jpg" class="card-img-top" alt="..." />
+                <div class="card-body p-4 d-flex">
+                  <div class="card-time">
+                    <p class="fs-5 fw-bold text-center">10 <span class="fs-6 ">NOV</span></p>
+                  </div>
+                  <div class="">
+                  <h4 class="card-title fs-5 fw-bold"><a href="#">New Lecturers Meeting</a></h4>
+                  <p class="card-text pt-1">
+                    Morbi in libero blandit lectus cursus ullamcorper.
+                  </p>
+                </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="card upcoming-card_item">
+            <img src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/meeting-02.jpg" class="card-img-top" alt="..." />
+            <div class="card-body p-4 d-flex">
+              <div class="card-time">
+                <p class="fs-5 fw-bold text-center">10 <span class="fs-6 ">NOV</span></p>
+              </div>
+              <div class="">
+              <h4 class="card-title fs-5 fw-bold"><a href="#">New Lecturers Meeting</a></h4>
+              <p class="card-text pt-1">
+                Morbi in libero blandit lectus cursus ullamcorper.
+              </p></div>
+            </div>
+          </div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="card upcoming-card_item">
+        <img src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/meeting-02.jpg" class="card-img-top" alt="..." />
+        <div class="card-body p-4 d-flex">
+          <div class="card-time">
+            <p class="fs-5 fw-bold text-center">10 <span class="fs-6 ">NOV</span></p>
+          </div>
+          <div class="">
+          <h4 class="card-title fs-5 fw-bold"><a href="#">New Lecturers Meeting</a></h4>
+          <p class="card-text pt-1">
+            Morbi in libero blandit lectus cursus ullamcorper.
+          </p></div>
+        </div>
+      </div>
+</div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- apply -->
+    <section class="apply">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 align-self-center">
+            <div class="row">
+              <div class="col-lg-12 apply-left-item text-white">
+                  <h3>APPLY FOR BACHELOR DEGREE</h3>
+                  <p class="mt-3">You are allowed to use this edu meeting CSS template for your school or university or business. You can feel free to modify or edit this layout.</p>
+                  <button class="btna mt-2 btn-apply1">JOIN US NOW!</button>
+                </div>
+
+                <div class="col-lg-12 apply-left-item text-white">
+                  <h3>APPLY FOR BACHELOR DEGREE</h3>
+                  <p class="mt-3">You are allowed to use this edu meeting CSS template for your school or university or business. You can feel free to modify or edit this layout.</p>
+                  <button class="btna mt-2 btn-apply2">JOIN US NOW!</button>
+                </div>
+            </div>
+          </div>
+          <div class="col-lg-6 ">
+            <div class="apply-right bg-white">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      About Edu Meeting HTML Template
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      About Edu Meeting HTML Template
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      About Edu Meeting HTML Template
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- courses -->
+    <section class="courses">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-5">
+            <h2 class="text-white fs-4 fw-bold pb-4">OUR POPULAR COURSES</h2>
+          </div>
+          <div class="col-lg-12 ">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="card course-list bg-white ms-3 d-flex">
+                    <img src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/course-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-3 text-center">
+                      <h5 class="card-title">Nulla at ipsum a mauris egestas tempor</h5>
+                    </div>
+                    <div class="card-footer p-2 text-center">
+                      <small class="text-muted course-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                      </small>
+                      <small class="ms-5 ps-4 fw-bold fs-5 course-price">$500</small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card course-list bg-white ms-3 d-flex">
+                    <img src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/course-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-3 text-center">
+                      <h5 class="card-title">Nulla at ipsum a mauris egestas tempor</h5>
+                    </div>
+                    <div class="card-footer p-2 text-center">
+                      <small class="text-muted course-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                      </small>
+                      <small class="ms-5 ps-4 fw-bold fs-5 course-price">$500</small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="card course-list bg-white ms-3 d-flex">
+                    <img src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/course-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-3 text-center">
+                      <h5 class="card-title">Nulla at ipsum a mauris egestas tempor</h5>
+                    </div>
+                    <div class="card-footer p-2 text-center">
+                      <small class="text-muted course-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                      </small>
+                      <small class="ms-5 ps-4 fw-bold fs-5 course-price">$500</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card course-list bg-white ms-3 d-flex">
+                    <img src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/course-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-3 text-center">
+                      <h5 class="card-title">Nulla at ipsum a mauris egestas tempor</h5>
+                    </div>
+                    <div class="card-footer p-2 text-center">
+                      <small class="text-muted course-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                      </small>
+                      <small class="ms-5 ps-4 fw-bold fs-5 course-price">$500</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="card course-list bg-white ms-3 d-flex">
+                    <img src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/course-03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-3 text-center">
+                      <h5 class="card-title">Nulla at ipsum a mauris egestas tempor</h5>
+                    </div>
+                    <div class="card-footer p-2 text-center">
+                      <small class="text-muted course-star">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                      </small>
+                      <small class="ms-5 ps-4 fw-bold fs-5 course-price">$500</small>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section class="new-facts">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-12 text-white">
+                <h2 class="fw-bold fs-1">A Few Facts About Our University</h2>
+              </div>
+              <div class="col-lg-6">
+                <div class="row text-white ">
+                  <div class="col-12 ">
+                    <div class="new-fact-box">
+                      <div class="fw-bold fs-1" id="fact-succesed-students">94%</div>
+                    <span class="fw-bold fs-6">Succesed Students</span>
+                    </div>
+                    
+                  </div>
+                  <div class="col-12">
+                    <div class="new-fact-box"><div class="fw-bold fs-1" id="fact-current-teachers">126</div>
+                    <span class="fw-bold fs-6">Current Teachers</span></div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 text-white">
+                <div class="row ms-3 mt-4 margin-0">
+                  <div class="col-12">
+                    <div class="new-fact-box"><div class="fw-bold fs-1 mx-1" id="fact-new-students">2345</div>
+                    <span class="fw-bold fs-6">New Student</span></div>
+                    
+                  </div>
+                  <div class="col-12">
+                    <div class="new-fact-box"><div class="fw-bold fs-1" id="fact-awards">32</div>
+                    <span class="fw-bold fs-6">Awards</span></div>
+                    
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 ">
+            <div class=" mt-5 video d-flex justify-content-center align-items-center">
+              <a href="https://www.youtube.com/watch?v=HndV87XpkWg" target="_blank">
+              <img src="https://templatemo.com/templates/templatemo_569_edu_meeting/assets/images/play-icon.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 align-self-center bg-white p-5 contact-input">
+            <div class="row">
+              <div class="col-lg-12">
+                <form action="">
+                  <div class="row">
+                    <div class="col-lg-12 mb-4">
+                      <h2 class="fw-bold fs-4 border-bottom pb-3 ">LET'S GET IN TOUCH</h2>
+                    </div>
+                    <div class="col-lg-4 pb-3"><input type="text" placeholder="YOURNAME...*"></div>
+                    <div class="col-lg-4 pb-3"><input type="text" placeholder="YOUR EMAIL..."></div>
+                    <div class="col-lg-4 pb-3"><input type="text" placeholder="SUBJECT...*"></div>
+                    <div class="col-lg-12 pb-3 mt-3"><textarea class="" placeholder="YOUR MESSAGE..."></textarea></div>
+                    <button class="col-lg-12 btna"> SEND MESSAGE NOW</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 ">
+            <div class="contact-info text-white ms-3">
+              <ul>
+              <li>
+                <h6 class="fw-bold">Phone Number</h6>
+                <span class="fw-bold fs-5">(+84) 0123 234</span>
+            </li>
+              <li>
+                <h6 class="fw-bold">Email Address</h6>
+                <span class="fw-bold fs-5">info@gmail.com</span>
+            </li>
+              <li>
+                <h6 class="fw-bold">Stress Address</h6>
+                <span class="fw-bold fs-5">Ha Noi - Viet Nam</span>
+            </li>
+              <li>
+                <h6 class="fw-bold">Website Url</h6>
+                <span class="fw-bold fs-5">www.via.com</span>
+            </li>
+            </ul>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="footer text-center text-white p-4">
+        <p class="pt-1">COPYRIGHT © 2022 EDU MEETING CO., LTD. ALL RIGHTS RESERVED.</p>
+        <p>DESIGN: <span>TEMPLATEMO</p>
+      </div>
+    </section>
+    <script src="./assets/app2.js"></script>
+  </body>
+</html>
